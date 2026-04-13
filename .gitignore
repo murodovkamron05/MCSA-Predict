@@ -1,0 +1,23 @@
+# Виртуальное окружение
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Данные и модели (не загружаем большие файлы)
+data/processed/mcsa_dataset.csv
+data/models/*.pkl
+*.pkl
+
+# Логи
+logs/
+*.log
+
+# Окружение
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Временные файлы Windows
+Thumbs.db
